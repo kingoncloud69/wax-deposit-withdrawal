@@ -75,6 +75,8 @@ cleos version full
 ```bash
 git clone https://github.com/worldwide-asset-exchange/wax-node.git
 cd wax-node
+# If you want to run a testnet node,
+git checkout testnet
 ```
 This command:
 -s true: Start from snapshot
