@@ -50,7 +50,7 @@ Exchange System ──Database──> Withdrawal Service
 
 - Ubuntu 20.04 or higher
 - Minimum Hardware Requirements:
-  - CPU: 4 cores
+  - CPU: 8 cores
   - RAM: 32GB
   - Storage: 500GB NVMe SSD
 2. Installation
@@ -123,7 +123,7 @@ df -h
 free -h
 # Adjust chain-state-db-size-mb in config.ini
 ```
-
+* More detail, Please check out the [wax-node](https://github.com/worldwide-asset-exchange/wax-node) project
 ### Setting Up Local Wallet
 
 1. Create a local wallet:
