@@ -1,0 +1,14 @@
+{
+  "name": "deposit-service-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node deposit-listener.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@waxio/eosio-statereceiver": "^3.0.1"
+  }
+}
