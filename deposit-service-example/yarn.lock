@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@waxio/eosio-statereceiver@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@waxio/eosio-statereceiver/-/eosio-statereceiver-3.0.1.tgz#2d9c6eb70c5d0e4f30b45012f508b18605041ce3"
-  integrity sha512-Vm03yZsXO2HEN70pqjcgwVcayEA44S+XAUEiV72RqorGAVjJtnl9fI71E5PCUQ30tDy8rulgogYQ+aT8dORF3w==
+"@waxio/eosio-statereceiver@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@waxio/eosio-statereceiver/-/eosio-statereceiver-4.0.1.tgz#d9d13dbdc5f2fe489aa9272c25ef19d934a7b8d5"
+  integrity sha512-G77rjPn+MvQc8P69f/Z+bE2+GtAe0RiBQf7bwLtNrJ+hdwuakhbkNbZA01HqGIsyam9HAi+iz8XzWj9dwbW92g==
   dependencies:
     eosjs "22.1.0"
     node-fetch "2.6.1"

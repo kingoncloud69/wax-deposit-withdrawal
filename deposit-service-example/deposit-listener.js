@@ -7,7 +7,7 @@ const sr = new StateReceiver({
     warn: (...m) => console.warn(...m),
     error: (...m) => console.error(...m),
   },
-  startBlock: 321492940,
+  startBlock: 500, // Process blocks starting from this block number, please set to a block number that has transfer actions
   socketAddresses: [process.env.SOCKET_ADDRESS || 'ws://localhost:8080'],
   eosEndpoint: process.env.EOS_ENDPOINT || 'http://localhost:8888',
   deserializerActions: [
@@ -40,7 +40,7 @@ const debugging = process.env.DEBUG_STATE_RECEIVER == 1; // set to true to run t
 
 sr.registerTraceHandler({
   async processTrace(block_num, traces, block_time) {
-    await sleep(1000);
+    // await sleep(1000); // Delay for debugging purposes, can be removed
 
     if (debugging) {
       console.log(`New block ${block_num}`);
