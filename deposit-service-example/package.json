@@ -9,6 +9,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@waxio/eosio-statereceiver": "^3.0.1"
+    "@waxio/eosio-statereceiver": "^4.0.1"
   }
 }
